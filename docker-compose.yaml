@@ -1,0 +1,7 @@
+version: '1.0'
+services:
+  helloword:
+    build:
+      context: ./
+    ports:
+      -5000:5000
